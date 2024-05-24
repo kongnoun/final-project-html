@@ -28,7 +28,7 @@
 }
 
 .navbar nav .navigation--bar li:last-child {
-  margin-left: auto;
+  margin-left: 1em;
   margin-right: 0.5em;
 }
 

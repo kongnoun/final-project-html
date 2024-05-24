@@ -9,7 +9,7 @@
 
 .navbar {
   font-family: 'Excon', sans-serif;
-  font-size: 0.7em;
+  font-size: 0.55em;
   background-color: var(--clr-innerbackground);
   padding: center center;
 }
@@ -62,7 +62,6 @@
   padding: 0.5em 0.7em;
   margin-top: 0.3em;
   margin-bottom: 0.3em;
-  margin-right: 0.5em;
   fill: var(--clr-white);
   transition: 0.5s, transform 0.4s ease, box-shadow 0.4s ease, fill 0.4s ease;
   background-size: 200% auto;  
@@ -270,12 +269,12 @@
   font-family: "Noto Sans Khmer", sans-serif;
 }
 
-@media (min-width: 475px) {
+@media (min-width: 425px) {
   * {
     line-height: 1.5em;
   }
   .container {
-    max-width: 475px;
+    max-width: 425px;
   }
 
   .btn {

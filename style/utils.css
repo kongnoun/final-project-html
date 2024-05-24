@@ -27,12 +27,14 @@
 .navbar nav .navigation--bar li {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  border-left: 1px solid var(--clr-white);
   /* margin-right: 0.5em; */
 }
 
 .navbar nav .navigation--bar li:last-child {
   margin-left: 1em;
   margin-right: 0.5em;
+  border-right: 1px solid var(--clr-white);
 }
 
 .navbar nav .navigation--bar li:first-child {
@@ -62,7 +64,7 @@
 
 .navbar nav .navigation--bar li .links--svg {
   display: block;
-  padding: 0.5em 0.7em;
+  padding: 0.2em 0.7em;
   margin-top: 0.3em;
   margin-bottom: 0.3em;
   fill: var(--clr-white);

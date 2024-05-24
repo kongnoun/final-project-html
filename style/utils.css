@@ -9,8 +9,8 @@
 
 .navbar {
   font-family: 'Excon', sans-serif;
-  font-size: 0.6em;
-  background-color: var(--clr-innerbackground);
+  font-size: 0.62em;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: center center;
 }
 
@@ -18,7 +18,10 @@
   display: flex;
   justify-content: center; /*can be change to flex-start */
   align-items: center;
-  background-color: var(--clr-innerbackground);
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid var(--clr-white);
+  /* border-left: 2px solid var(--clr-white);
+  border-right: 2px solid var(--clr-white); */
 }
 
 .navbar nav .navigation--bar li {
@@ -241,7 +244,7 @@
   margin-left: auto;
   padding-right: 1em;
   padding-left: 1em;
-  border: 2px solid var(--clr-innerbackground);
+  /* border: 2px solid var(--clr-innerbackground); */
 }
 
 .info {

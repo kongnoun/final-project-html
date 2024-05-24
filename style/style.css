@@ -1,0 +1,62 @@
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-hoverfont: hsl(240, 100%, 31%);
+  --clr-innerbackground: hsl(240, 100%, 31%);
+  --clr-mainbg: hsl(0, 0%, 100%);
+  --clr-hovereffect: hsl(200, 100%, 99%);
+  --clr-black: hsl(0, 0%, 0%);
+  --clr-rose: hsl(342, 91%, 50%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: calc(1.3em - 0.2em);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--clr-white);
+  background-color: var(--clr-black);
+}
+
+img,
+video,
+svg,
+canvas,
+picture {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  display: inline-block;
+  border: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+strong {
+  font-size: larger;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  color: var(--clr-hoverfont);
+}

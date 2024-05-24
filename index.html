@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/modern-normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/utils.css">
+    
+    <!-- link font from fontshare -->
+    <link href="https://api.fontshare.com/v2/css?f[]=excon@500&display=swap" rel="stylesheet">
+    
+    <title>The University Of Cambodia</title>
+</head>
+<body>
+    <article class="container">
+        <div class="banner">
+            <img src="image/banner.jpg" alt="banner image">
+        </div>
+
+        <div class="navbar">
+            <nav>
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()" class="sidebar--svg" style="font-size: 1.5em; font-weight: inherit;"><h2>[mora]</h2><a href="#"><svg class="sidebar--svg" xmlns="http://www.w3.org/2000/svg" height="38px" viewBox="0 -960 960 960" width="38px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li class="sidebar--links"><a href="#">Home</a></li>
+                    <li class="sidebar--links"><a href="#">News</a></li>
+                    <li class="sidebar--links"><a href="#">Faculty Members</a></li>
+                    <li class="sidebar--links"><a href="#">Professional Training</a></li>
+                    <li class="sidebar--links"><a href="#">Degree Programs</a></li>
+                    <li class="sidebar--links"><a href="#">Computer Labs</a></li>
+                </ul>
+                <ul class="navigation--bar">
+                    <li><a class="links" href="#">Home</a></li>
+                    <li><a class="links" href="#">News</a></li>
+                    <li><a class="links" href="#">Members</a></li>
+                    <li><a class="links" href="#">Training</a></li>
+                    <li><a class="links" href="#">Programs</a></li>
+                    <li><a class="links" href="#">Labs</a></li>
+                    <li onclick="showSidebar()"><a class="links--svg"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+            </nav>
+        </div>
+    </article>
+
+    <article class="container">
+
+        <div class="marquee--one">
+            <marquee behavior="scroll" direction="right" scrollamount="6">
+            <img src="image/cost.jpg">
+                    <span class="first-style">ស្វាគមន័!</span>
+                    <span class="second-style">IT EXPERT College Science and Technology</span>
+            <img src="image/cost.jpg">
+                    <span class="first-style">ស្វាគមន័!</span>
+                    <span class="second-style">IT EXPERT College Science and Technology</span>
+            <img src="image/cost.jpg">
+                    <span class="first-style">ស្វាគមន័!</span>
+                    <span class="second-style">IT EXPERT College Science and Technology</span>
+            <img src="image/cost.jpg">
+                    <span class="first-style">ស្វាគមន័!</span>
+                    <span class="second-style">IT EXPERT College Science and Technology</span>
+
+            </marquee>
+        </div>
+
+        <div class="info">
+            <h1>Welcome to CosT</h1>
+            <p class="khmer__font">សូមស្វាគមន៏មកកាន់<strong href="https://uc.edu.kh">មហាវិទ្យាល័យវិទ្យាសាស្ត្រ​​និងបច្ចេកវិទ្យានៃសកលវិទ្យាល័យកម្ពុជា</strong>។​ សម្រាប់ប្អូនៗសិក្សានុសិស្ស ដែលមានបំណងចង់បន្តការសិក្សាថ្នាក់បរិញ្ញាប័ត្ររង និងថ្នាក់បរិញ្ញាប័ត្រ។ សូមចុះឈ្មោះជាមួយយើងឥលូវនេះឬអាចអញ្ចើញមកកាន់សកលវិទ្យាល័យផ្ទាល់ក៏បាន។</p>
+            <button class="btn">Visit Us</button>
+        </div>
+
+    </article>
+
+    <article class="container">
+
+        <div class="wrapper">
+
+        </div>
+    </article>
+    
+
+    <script>
+        function hideSidebar() {
+            var sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'none';
+            sidebar.classList.remove('sidebar--visible');
+
+                }
+    
+        function showSidebar() {
+            var sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'flex';
+            sidebar.classList.add('sidebar--visible');
+
+
+        }
+
+    </script>
+    
+
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>

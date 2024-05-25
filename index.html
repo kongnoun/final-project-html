@@ -18,7 +18,7 @@
     <title>The University Of Cambodia</title>
 </head>
 <body>
-    <article class="container">
+    <article class="container1 container">
         <div class="banner">
             <img src="image/banner.jpg" alt="banner image">
         </div>
@@ -47,7 +47,7 @@
         </div>
     </article>
 
-    <article class="container">
+    <article class="container2 container" style="background-image: url(image/background.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; opacity: 1.2;">
 
         <div class="marquee--one">
             <marquee behavior="scroll" direction="right" scrollamount="3">
@@ -76,10 +76,41 @@
     </article>
 
     <article class="container">
-
-        <div class="wrapper">
-
+        <div class="slideshow-container">
+            <h2 style="text-align: center; margin-bottom: 0.8em; padding-bottom: 0.6em; text-decoration: underline rgba(0, 238, 255, 0.8); border-bottom: 2px solid white;">
+                Gallery
+            </h2>
+            <!-- Images -->
+            <div class="mySlides">
+                <img src="image/1.jpg" alt="Image 1">
+            </div>
+            <div class="mySlides">
+                <img src="image/2.JPG" alt="Image 2">
+            </div>
+            <div class="mySlides">
+                <img src="image/3.jpg" alt="Image 2">
+            </div>
+            <div class="mySlides">
+                <img src="image/4.jpg" alt="Image 2">
+            </div>
+            <div class="mySlides">
+                <img src="image/5.jpg" alt="Image 2">
+            </div>
+            <div class="mySlides">
+                <img src="image/6.jpg" alt="Image 2">
+            </div>
+        
+            <!-- Previous and Next buttons -->
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
         </div>
+        
+    </article>
+
+    <article class="container">
+        <footer>
+            <h2>[/mora]</h2>
+        </footer>
     </article>
     
 
@@ -99,9 +130,30 @@
 
         }
 
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function changeSlide(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            const slides = document.getElementsByClassName("mySlides");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+
     </script>
     
 
-    <script type="module" src="src/main.js"></script>
+    <script href="src/script.js"> </script>
 </body>
 </html>

@@ -368,12 +368,6 @@
   .info p {
     margin: 0.4em 0em;
   }
-  .btn {
-    padding: 1em 4em;
-  }
-  .btn:hover {
-    transform: scale(1.08);
-  }
 }
 
 @media (min-width: 770px) {
@@ -395,6 +389,7 @@
     margin: 0.5em 0em;
   }
   .btn {
+    margin-bottom: 1.3em;
     padding: 1.2em 4.2em;
   }
   .btn:hover {
@@ -421,6 +416,7 @@
     margin: 0.5em 0em;
   }
   .btn {
+    margin-bottom: 1.3em;
     padding: 1.5em 4.5em;
   }
   .btn:hover {
@@ -447,6 +443,7 @@
     margin: 0.5em 0em;
   }
   .btn {
+    margin-bottom: 1.3em;
     padding: 1.6em 4.7em;
   }
   .btn:hover {
@@ -473,6 +470,7 @@
     margin: 0.5em 0em;
   }
   .btn {
+    margin-bottom: 1.3em;
     padding: 1.9em 5.2em;
   }
   .btn:hover {

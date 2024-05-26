@@ -281,7 +281,7 @@
 /* Basic styling for the slideshow container */
 .container .slideshow-container {
   width: 100%;
-  height: auto;
+  height: 50%;
   position: relative;
   margin: auto;
   justify-content: center;

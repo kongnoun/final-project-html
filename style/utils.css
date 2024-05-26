@@ -353,12 +353,12 @@
 
 
 
-@media (min-width: 425px) {
+@media (min-width: 435px) {
   * {
     line-height: 1.5em;
   }
   .container {
-    max-width: 425px;
+    max-width: 435px;
   }
 
   .btn {

@@ -393,10 +393,11 @@
   
   .info p {
     font-size: 1.4em;
-    margin: 0.5em 0em;
+    margin: 0.5em 0.5em;
   }
   .btn {
     margin-bottom: 1.3em;
+    margin-left: 1.5em;
     padding: 1.2em 4.2em;
   }
   .btn:hover {
@@ -422,10 +423,11 @@
   
   .info p {
     font-size: 1.4em;
-    margin: 0.5em 0em;
+    margin: 0.5em 0.5em;
   }
   .btn {
     margin-bottom: 1.3em;
+    margin-left: 1.5em;
     padding: 1.5em 4.5em;
   }
   .btn:hover {
@@ -453,10 +455,11 @@
   
   .info p {
     font-size: 1.4em;
-    margin: 0.5em 0em;
+    margin: 0.5em 0.5em;
   }
   .btn {
     margin-bottom: 1.3em;
+    margin-left: 1.5em;
     padding: 1.6em 4.7em;
   }
   .btn:hover {
@@ -483,10 +486,11 @@
   
   .info p {
     font-size: 1.4em;
-    margin: 0.5em 0em; 
+    margin: 0.5em 0.5em; 
   }
   .btn {
     margin-bottom: 1.3em;
+    margin-left: 1.5em;
     padding: 1.9em 5.2em;
   }
   .btn:hover {
